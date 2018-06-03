@@ -1,0 +1,31 @@
+<% include header %>
+<h2>Crea una nueva victima</h2>
+<form method="post" role= "form">
+    <div class="form-group">
+        <label for="title">Nombre</label>
+        <input type="text" class= "form-control" id="title" 
+        name= "title"placeholder= "Escribe un nombre" required />
+    </div>
+    <div class ="form-group">
+        <label for="body">Direccion</label>
+        <textarea class= "form-control" id="body"
+        name= "body" placeholder="Escribe una Direccion" rows="2"required>
+    </textarea>
+    </div>
+    <div class ="form-group">
+            <label for="body">Telefono</label>
+            <textarea class= "form-control" id="body"
+            name= "body" placeholder="Escribe el numero de telefono" rows="2"required>
+        </textarea>
+        </div>
+        <div class ="form-group">
+                <label for="body">Instagram</label>
+                <textarea class= "form-control" id="body"
+                name= "body" placeholder="La Direccion de Instagram" rows="2"required>
+            </textarea>
+            </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Aceptar" />
+    </div>
+</form>
+<% include footer %>
